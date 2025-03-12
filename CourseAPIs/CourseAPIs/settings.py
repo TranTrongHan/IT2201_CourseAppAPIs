@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'courses.apps.CoursesConfig',
     'ckeditor',
     'ckeditor_uploader',
+    'rest_framework',
+    'drf_yasg',
 
 
 ]
@@ -81,7 +83,7 @@ WSGI_APPLICATION = 'CourseAPIs.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'coursedb',
+        'NAME': 'course1db',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': ''  # mặc định localhost
